@@ -17,7 +17,7 @@ export const Images = {
   CBTP: IMAGE_URL + "/static/img/coffeebag_tranpa.png",
   BCFFS: IMAGE_URL + "/static/img/breadcoffee_tranpa.png",
   BBG: IMAGE_URL + "/static/img/BANHMI-bg_2.jpg",
-  ADS: IMAGE_URL + "/static/img/ads.png",
+  ADS: IMAGE_URL + "/static/img/adss.png",
   BCFF: IMAGE_URL + "/static/img/buy_cff.gif",
   CPIM:
     IMAGE_URL +
