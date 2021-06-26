@@ -6,7 +6,7 @@ import { NOT_HEADER } from "../config/route";
 const NoheaderRouter = () => {
   const _path = window.location.pathname;
   return (
-    <>
+    <div>
       <Switch>
         {map(NOT_HEADER, (item, key) => {
           return (
@@ -18,7 +18,7 @@ const NoheaderRouter = () => {
           );
         })}
       </Switch>
-    </>
+    </div>
   );
 };
 
