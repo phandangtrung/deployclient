@@ -4,7 +4,7 @@ import { Images } from "../../../config/image";
 import "./style.css";
 function index() {
   return (
-    <>
+    <div>
       <Row className="coffee-intro_form">
         <Col lg={12} sm={8} className="text-form">
           <div className="big_title ">CÀ PHÊ</div>
@@ -65,7 +65,7 @@ function index() {
           </div>
         </Col>
       </Row>
-    </>
+    </div>
   );
 }
 

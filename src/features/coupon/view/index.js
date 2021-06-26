@@ -41,7 +41,7 @@ function CouponPage() {
   };
 
   return (
-    <>
+    <div>
       <Search
         className="search_coupon"
         placeholder="Search by coupon event"
@@ -159,7 +159,7 @@ function CouponPage() {
           </Row>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

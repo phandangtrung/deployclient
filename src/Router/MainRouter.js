@@ -12,7 +12,7 @@ const MainRouter = () => {
   const _path = window.location.pathname;
   console.log(_path, location);
   return (
-    <>
+    <div>
       {!["/login"].includes(location.pathname) && (
         <div style={{ position: "sticky", top: "0", zIndex: "1" }}>
           <Header />
@@ -32,7 +32,7 @@ const MainRouter = () => {
         })}
       </Switch>
       {/* <Footer /> */}
-    </>
+    </div>
   );
 };
 

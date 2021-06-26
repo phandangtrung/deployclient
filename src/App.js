@@ -9,12 +9,12 @@ import Chatbot from "react-chatbot-kit";
 
 function App() {
   return (
-    <>
+    <div>
       <div className="App" style={{ paddingBottom: "0px" }}>
         <Router>{MainRouter()}</Router>
       </div>
       <KommunicateChat />
-    </>
+    </div>
   );
 }
 

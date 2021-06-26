@@ -179,7 +179,7 @@ function Product() {
     textAlign: "center",
   };
   return (
-    <>
+    <div>
       <div className="hot-new">
         <div className="item">
           <Carousel autoplay={5000} dots={false}>
@@ -347,7 +347,7 @@ function Product() {
           <CaretUpOutlined />
         </div>
       </BackTop>
-    </>
+    </div>
   );
 }
 

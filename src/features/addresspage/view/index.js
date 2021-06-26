@@ -3,7 +3,7 @@ import "./style.css";
 import { Row, Col, Select } from "antd";
 function AddressPage() {
   return (
-    <>
+    <div>
       <div className="container">
         <Row
           className="fillter-form"
@@ -31,7 +31,7 @@ function AddressPage() {
         </Row>
         <Row style={{ width: "100%" }}></Row>
       </div>
-    </>
+    </div>
   );
 }
 

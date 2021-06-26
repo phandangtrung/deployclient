@@ -135,7 +135,7 @@ function MyProfile() {
                   </Form.Item>
                   <Form.Item label="Date of birth">
                     {opendate === false ? (
-                      <>
+                      <div>
                         <Text>{datetime}</Text>
                         <Button
                           style={{
@@ -147,7 +147,7 @@ function MyProfile() {
                         >
                           <EditOutlined />
                         </Button>{" "}
-                      </>
+                      </div>
                     ) : (
                       <DatePicker
                         style={{ width: "100%" }}

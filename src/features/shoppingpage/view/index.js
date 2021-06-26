@@ -299,11 +299,11 @@ function ShoppingPage(props) {
       dataIndex: "name",
       key: "name",
       render: (name) => (
-        <>
+        <div>
           <span style={{ textAlign: "start" }} className="productname">
             {name}
           </span>
-        </>
+        </div>
       ),
     },
     {
@@ -453,7 +453,7 @@ function ShoppingPage(props) {
   };
   const { Step } = Steps;
   return (
-    <>
+    <div>
       <div className="shopping-container">
         <div className="shopping-card">
           <div className="cart-container">
@@ -530,7 +530,7 @@ function ShoppingPage(props) {
               </div>
             </div>
             {codeprice !== 0 ? (
-              <>
+              <div>
                 {" "}
                 <div style={{ opacity: "0.3" }} className="totalcost-form">
                   <div> </div>
@@ -555,7 +555,7 @@ function ShoppingPage(props) {
                     {""} VND
                   </div>
                 </div>
-              </>
+              </div>
             ) : (
               ""
             )}
@@ -779,7 +779,7 @@ function ShoppingPage(props) {
           }}
         />
       </Modal>
-    </>
+    </div>
   );
 }
 

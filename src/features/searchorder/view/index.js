@@ -79,7 +79,7 @@ function Searchorder() {
   };
 
   return (
-    <>
+    <div>
       <Modal
         style={{ height: "20px" }}
         title="Sản phẩm của đơn hàng"
@@ -277,7 +277,7 @@ function Searchorder() {
           ))}
         </Spin>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -183,7 +183,7 @@ const RightMenu = (props) => {
   );
   let islogin = Cookies.get("tokenCustomer");
   return (
-    <>
+    <div>
       <Menu
         mode={md ? "horizontal" : "inline"}
         onClick={props.handleClickMenu}
@@ -451,7 +451,7 @@ const RightMenu = (props) => {
           </Tabs>
         </div>
       </Modal>
-    </>
+    </div>
   );
 };
 
