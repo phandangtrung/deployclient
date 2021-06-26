@@ -67,14 +67,34 @@ function ProductTag(props) {
   };
   return (
     <div>
-      <div className="menu-item">
-        <div className="menu-image">
+      <div
+        style={{
+          height: "415px",
+          width: "266px",
+          padding: "0px 20px 15px 0px",
+        }}
+      >
+        <div
+          style={{
+            height: "61%",
+            width: "100%",
+          }}
+        >
           <img
+            style={{ height: "auto", width: "100%" }}
             alt="picture"
             src={`https://backendcfs.herokuapp.com/${props.img}`}
           />
         </div>
-        <div className="menu-detail">
+        <div
+          style={{
+            fontFamily: '"Bangers", cursive',
+            backgroundColor: "#f2f0eb",
+            paddingTop: "5px",
+            height: "36%",
+            width: "100%",
+          }}
+        >
           <Link
             // to={`singleproduct/${props._id}`}
             // idpro={props._id}
@@ -93,10 +113,21 @@ function ProductTag(props) {
               addtoCart: () => addtoCart(),
             }}
           >
-            <div className="title-name-menu ">{props.name}</div>
+            <div
+              style={{
+                color: "#3b3838",
+                fontSize: "25px",
+                textShadow: "0.5px 1.5px #9ea19d",
+                cursor: "pointer",
+                transition: "1s",
+              }}
+              className="title-name-menu "
+            >
+              {props.name}
+            </div>
           </Link>
 
-          <div className="menu-detail-price">
+          <div style={{ color: "rgb(164, 115, 67)", fontSize: "18px" }}>
             <CurrencyFormat
               value={props.price}
               displayType={"text"}
@@ -104,11 +135,35 @@ function ProductTag(props) {
             />{" "}
             VND
           </div>
-          <div className="menu-detail-button-form">
+          <div
+            style={{
+              marginTop: "15px",
+              width: "100%",
+              height: "40px",
+              marginBottom: "0px",
+            }}
+            className="menu-detail-button-form"
+          >
             {props.quantity === 0 ? (
               <a style={{ fontSize: "20px" }}>Hết hàng</a>
             ) : (
-              <button onClick={addtoCart}>MUA NGAY</button>
+              <button
+                style={{
+                  display: "inline-block",
+                  width: "80%",
+                  background:
+                    "linear-gradient(to left, #f2f0eb 50%, rgb(164, 115, 67) 50%) right",
+                  border: "2px solid rgb(164, 115, 67)",
+                  color: "rgb(164, 115, 67)",
+                  fontSize: "20px",
+                  cursor: "pointer",
+                  backgroundSize: "200%",
+                  transition: "0.5s ease-out",
+                }}
+                onClick={addtoCart}
+              >
+                MUA NGAY
+              </button>
             )}
           </div>
         </div>
