@@ -93,10 +93,10 @@ function ProductTag(props) {
               addtoCart: () => addtoCart(),
             }}
           >
-            <div className="title-name">{props.name}</div>
+            <div className="title-name-menu ">{props.name}</div>
           </Link>
 
-          <div className="price">
+          <div className="menu-detail-price">
             <CurrencyFormat
               value={props.price}
               displayType={"text"}
@@ -104,7 +104,7 @@ function ProductTag(props) {
             />{" "}
             VND
           </div>
-          <div className="button-form">
+          <div className="menu-detail-button-form">
             {props.quantity === 0 ? (
               <a style={{ fontSize: "20px" }}>Hết hàng</a>
             ) : (
