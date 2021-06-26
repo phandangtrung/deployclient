@@ -75,7 +75,7 @@ function ProductTag(props) {
           />
         </div>
         <div className="menu-detail">
-          {/* <Link
+          <Link
             // to={`singleproduct/${props._id}`}
             // idpro={props._id}
             // namepro={props.name}
@@ -94,8 +94,8 @@ function ProductTag(props) {
             }}
           >
             <div className="title-name">{props.name}</div>
-          </Link> */}
-          <div className="title-name">{props.name}</div>
+          </Link>
+
           <div className="price">
             <CurrencyFormat
               value={props.price}
