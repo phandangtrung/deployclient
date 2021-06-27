@@ -56,32 +56,13 @@ function index() {
           <img src={Images.BCFFS} />
         </Col>
         <Col lg={12} className="text-form">
-          <Row>
-            <Col span={24}>
-              <div className="big_title ">BÁNH MÌ</div>
-            </Col>
-          </Row>
-          <Row>
-            <Col span={24}>
-              <div className="text-content">
-                <div>
-                  Bạn đã quá quen thuộc với Bánh mì Việt Nam. Hãy nếm thử một
-                </div>
-                <div>
-                  miếng Bánh mì ngon, giòn, nóng hổi tại Highlands Coffee. Một
-                  kết
-                </div>
-                <div>
-                  hợp hoàn hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với lớp
-                  vỏ
-                </div>
-                <div>
-                  bánh mì giòn tan, mịn màng tạo ra tầng tầng lớp lớp dư vị cho
-                </div>
-                <div>thực khách.</div>
-              </div>
-            </Col>
-          </Row>
+          <div className="big_title ">BÁNH MÌ</div>
+          <div className="text-content">
+            Bạn đã quá quen thuộc với Bánh mì Việt Nam. Hãy nếm thử một miếng
+            Bánh mì ngon, giòn, nóng hổi tại Highlands Coffee. Một kết hợp hoàn
+            hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với lớp vỏ bánh mì giòn
+            tan, mịn màng tạo ra tầng tầng lớp lớp dư vị cho thực khách.
+          </div>
         </Col>
       </Row>
     </div>
