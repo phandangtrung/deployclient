@@ -5,10 +5,10 @@ import "./style.css";
 function index() {
   return (
     <div>
-      <Row className="coffee-intro_form">
-        <Col lg={12} sm={8} className="text-form">
+      <Row className="coffee_intro_form">
+        <Col lg={12} sm={8} className="text_form">
           <div className="big_title ">CÀ PHÊ</div>
-          <div className="text-content">
+          <div className="text_content">
             Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng
             được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí
             quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu
@@ -19,13 +19,13 @@ function index() {
           <img style={{ width: "100%" }} src={Images.COCFTP} />
         </Col>
       </Row>
-      <Row className="fastcoffee-intro_form">
+      <Row className="fastcoffee_intro_form">
         <Col lg={10}>
           <img src={Images.CFFTP} />
         </Col>
-        <Col lg={12} className="text-form">
+        <Col lg={12} className="text_form">
           <div className="big_title ">TAKE-AWAY</div>
-          <div className="text-content">
+          <div className="text_content">
             Thuận tiện cho số đông những người cần cà phê mỗi sáng nhưng lại eo
             hẹp về thời gian cũng như hòa nhập vào nhịp sống của cộng đồng thì
             sự xuất hiện của hình thức cà phê “take away” lại rất được lòng đại
@@ -33,10 +33,10 @@ function index() {
           </div>
         </Col>
       </Row>
-      <Row className="bagcoffee-intro_form">
-        <Col lg={12} className="text-form">
+      <Row className="bagcoffee_intro_form">
+        <Col lg={12} className="text_form">
           <div className="big_title ">CÀ PHÊ TÚI</div>
-          <div className="text-content">
+          <div className="text_content">
             Cà phê sạch được hiểu đơn giản là loại cà phê được tạo ra từ 100% cà
             phê, không trộn lẫn bất kỳ loại hương liệu, hóa chất hay tạp chất
             nào khác.Nói như vậy không có nghĩa là cà phê sạch là loại cà phê
@@ -49,15 +49,15 @@ function index() {
         </Col>
       </Row>
       <Row
-        className="breadcoffee-intro_form"
+        className="breadcoffee_intro_form"
         style={{ backgroundImage: `url(${Images.BBG})` }}
       >
         <Col lg={10}>
           <img src={Images.BCFFS} />
         </Col>
-        <Col lg={12} className="text-form">
+        <Col lg={12} className="text_form">
           <div className="big_title ">BÁNH MÌ</div>
-          <div className="text-content">
+          <div className="text_content">
             Bạn đã quá quen thuộc với Bánh mì Việt Nam. Hãy nếm thử một miếng
             Bánh mì ngon, giòn, nóng hổi tại Highlands Coffee. Một kết hợp hoàn
             hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với lớp vỏ bánh mì giòn
